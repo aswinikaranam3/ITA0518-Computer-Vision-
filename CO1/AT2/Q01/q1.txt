@@ -1,0 +1,29 @@
+                         IMAGE ACQUISITION SYSTEMS
+                                   │
+                    ┌──────────────┴──────────────┐
+                    │                             │
+                  CCD                           CMOS
+        (Charge Coupled Device)      (Complementary Metal Oxide Semiconductor)
+                    │                             │
+     ┌──────────────┼──────────────┐   ┌──────────┼──────────────┐
+     │              │              │   │          │              │
+ Image Quality   Noise Level   Power Use   Image Quality   Noise Level   Power Use
+     │              │              │         │              │              │
+ High (better     Low noise      High     Moderate        Higher        Low power
+ uniformity)    (less distortion) usage    (improving)    noise         consumption
+                    │                             │
+     ┌──────────────┼──────────────┐   ┌──────────┼──────────────┐
+     │              │              │   │          │              │
+ Sensitivity    Speed         Cost        Sensitivity     Speed         Cost
+     │              │              │         │              │              │
+ Very high     Slow readout   Expensive   Lower          Fast          Low cost
+ (good in      (serial        (complex    (less light    (parallel     (mass
+ low light)    transfer)      design)     sensitive)     readout)      production)
+                    │                             │
+     ┌──────────────┼──────────────┐   ┌──────────┼──────────────┐
+     │              │              │   │          │              │
+ Applications   Image Artifacts  Heat     Applications   Integration   Flexibility
+     │              │              │         │              │              │
+ Medical,       Less artifacts   More     Smartphones,    High (can     High
+ Astronomy      (clean images)   heat     CCTV, IoT       integrate     (on-chip
+                                              cameras     circuits)     processing)
